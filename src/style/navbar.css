@@ -1,0 +1,93 @@
+/*---------navbar----------*/
+.navbar-flex{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+.top-cont{
+    margin: 20px;
+}
+#logo{
+   height: 80%;
+}
+#search-box{
+    width: 290px;
+    /* border-style: none; */
+    /* border-bottom: 2px solid black; */
+    font-size: 16px;
+    background-color: white;
+    background-image: url(https://prodstatic.shoppersstop.com/_ui/responsive/common/assets/images/iconsearch.png);
+    background-position: 290px -2px;
+    background-repeat: no-repeat;
+    padding: 8px 24px 10px 9px;
+    margin: 0px 0px 0px 1em;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#search-icon{
+    color: #FF704F;
+    margin-right: -65%;
+    font-size: 25px;
+    margin-top: 6px;
+}
+#location-icon{
+    margin-top: 18px;
+    color: gray;
+}
+#cart-icon{
+    font-size: 40px;
+    color: gray;
+    cursor: pointer;
+}
+.navbar-flex > p{
+    color: rgb(88, 88, 88);
+    font-size: 13.5px;
+    cursor: pointer;
+}
+.navbar-flex > p:hover{
+    text-decoration: underline;
+}
+.navbar-down-cont{
+    background-color: #FFD91C;
+    color: rgb(59, 59, 59);
+    margin-top: -25px;
+}
+.navbar-down-cont1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.navbar-down-cont1 > div{
+    margin-top: 3px;
+    padding: 0px 10px 0px 10px;
+    /* border: 1px solid black; */
+}
+.link{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+.navbar-down-cont1 > div:hover{
+    background-color: #fff;
+    /* color: gray; */
+    cursor: pointer;
+}
+.navbar-down-cont1 > img{
+    width: 4.5%;
+    height: 0.5%;
+    margin-top: 18px;
+}
+#carter{
+    background-color: #049EDC;
+    color: #fff;
+    padding: 0px 20px;
+}
+#im{
+    margin-top: 1px;
+}
+#sin{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}

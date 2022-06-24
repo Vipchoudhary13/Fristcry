@@ -1,0 +1,120 @@
+.product-top-text{
+    margin-left: 134px;
+    margin-bottom: -10px;
+}
+.product-main-cont{
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+}
+.product-left-cont{
+    border: 1px solid rgb(197, 196, 196);
+}
+.product-right-cont{
+    /* border: 1px solid gray; */
+}
+.more{
+    color: rgb(41,123,255);
+}
+.procuct-flex1{
+    /* border: 1px solid blue; */
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.procuct-flex{
+    display: flex;
+}
+.procuct-flex > h2{
+    margin-top: 9px;
+    color: #003283;
+}
+.procuct-flex2{
+    display: flex;
+    border: 1px solid gray;
+}
+.addto-cart{
+    padding: 10px;
+    background-color: #FF7043;
+    color: #fff;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid gray;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 3px;
+}
+.shortlist{
+    background-color: #fff;
+    color: gray;
+    
+}
+.product-flex-ptag{
+    color: rgb(117,117,117);
+}
+.product-flex-ptag1{
+    margin-top: -15px;
+    font-size: 13px;
+}
+.product-flex-color{
+    color: #FF7043;
+}
+.product-flex2{
+    border: 1px solid lightgray;
+    width: 57%;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+}
+.product-flex2-left{
+    display: flex;
+}
+.product-flex2-left > img{
+    height: 20%;
+    margin-top: 18px;
+    margin-right: 7px;
+}
+.product-club{
+    color: rgb(41,123,255);
+}
+.product-price{
+    color: #003283;
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.product-saving{
+    margin-top: -19px;
+    font-size: 12px;
+}
+.product-join{
+    margin-left: 55px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FF7043;
+}
+.product-size{
+    display: flex;
+    gap: 10px;
+}
+.product-size1{
+    display: grid;
+    /* gap: 10px; */
+    
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+.product-size1 > p{
+    padding: 5px 12px;
+    margin-right: 10px;
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 3px;
+}
+.product-size1 > p:nth-child(8){
+    margin-top: -5px;
+}

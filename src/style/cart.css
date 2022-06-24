@@ -1,0 +1,122 @@
+.cart-contaner{
+    background-color: rgb(235, 232, 232);
+    /* height: 600px; */
+}
+.cart-main-cont{
+    /* border: 1px solid green; */
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+.cart-left-cont{
+    /* border: 1px solid blue; */
+    
+    /* height: 40%; */
+    width: 100%;
+}
+.cart-left-top{
+    border: 1px solid rgb(207, 205, 205);
+    padding: 19px;
+    display: flex;
+    gap: 30px;
+    width: 95%;
+    margin-bottom: 10px;
+    background-color: rgb(255,255,255);
+}
+.cart-move{
+    display: flex;
+    gap: 20px;
+}
+.cart-move > img{
+    width: 30%;
+}
+.cart-move > p{
+    font-weight: 500;
+    font-size: 13px;
+    cursor: pointer;
+}
+.cart-vertical-line{
+    border: 1px solid gray;
+    /* height: 300px; */
+}
+.cart-club-price{
+    display: flex;
+}
+.cart-club-price > img{
+    height: 20%;
+    width: 15%;
+}
+.cart-club-price > p{
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: rgb(41,123,255);
+    cursor: pointer;
+}
+.cart-mrp{
+    font-size: 14px;
+    margin-top: -14px;
+    color: gray;
+}
+.cart-right-top{
+    /* margin-left: -5px; */
+    width: 29%;
+}
+.cart-off{
+    color: #FF7043;
+    font-weight: 500;
+}
+.cart-price{
+    text-decoration: line-through;
+}
+.cart-place-order{
+    display: grid;
+    grid-template-columns: 67% 29.5%;
+    border: 1px solid rgb(207, 205, 205);
+    margin-top: 29px;
+    padding: 0px 30px;
+    background-color: rgb(255,255,255);
+    gap: 20px;
+}
+.cart-delevery{
+    background-color: #FF7043;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.cart-order{
+    background-color: gray;
+    display: flex;
+    gap: 20px;
+    height: 60%;
+    margin-top: 16px;
+    padding: 0px 12px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.cart-order > h5{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.cart-right-cont{
+    border: 1px solid rgb(207, 205, 205);
+    width: 450px;
+    height: 200px;
+    background-color: rgb(255,255,255);
+    padding: 15px;
+}
+.cart-right-cont > div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+    font-size: 14px;
+}
+.cart-right-cont > div:nth-child(3){
+    color: green;
+}

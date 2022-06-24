@@ -1,0 +1,83 @@
+#payment-main-div{
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(207, 205, 205);
+    /* background-color: rgb(18,19,23); */
+}
+.payment-flex-div{
+    display: flex;
+}
+.payment-flex-first{
+    /* border: 1px solid blue; */
+    margin-bottom: 20px;
+}
+.amont{
+    border: 1px solid rgb(56,62,71);
+    justify-content: space-between;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 0px 10px;
+}
+#payment-check{
+    text-align: left;
+    font-size: 20px;
+}
+.payment-headingTag{
+    text-align: left;
+    font-size: 11px;
+}
+.payment-inputTag{
+    width: 321px;
+    border-style: none;
+    /* border-bottom: 2px solid rgb(161,162,163); */
+    border-bottom: 2px solid rgb(56,62,71);
+    font-size: 16px;
+    /* background-color: rgb(18,19,23); */
+    color: rgb(161,162,163);
+    /* color: rgb(31,48,43); */
+    background-position: 300px 1px;
+    background-repeat: no-repeat;
+    padding: 4px 25px 12px 9px;
+    margin: 0 3px 11px .1em;
+    outline: none;
+}
+.payment-proceedBtn{
+    /* margin-left: auto; */
+    margin-right: auto;
+    display: block;
+    background-color: #FF7043;
+    border: none;
+    padding: 11px;
+    width: 88%;
+    border-radius: 4px;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+}
+#pyament-security{
+    margin-top: 8px;
+    margin-left: 25px;
+    font-size: 60px;
+    color: rgb(120,197,74);
+}
+.pyament-security-term{
+    text-align: left;
+    padding: 0 10px;
+}
+.pyament-security-term-email{
+    padding: 0 25px;
+}
+#payment-disEmail{
+    color: rgb(39,137,240);
+}
+#payment-backArrow{
+    margin-top: 10px;
+    font-size: 27px;
+}
+.payment-creditDebit{
+    margin: auto;
+    /* border: 1px solid blue; */
+}

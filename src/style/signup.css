@@ -1,0 +1,65 @@
+#signup-top-logo{
+    /* margin-right: 10px; */
+}
+
+.signup-main-cont{
+    margin: 50px;
+}
+.signup-cont{
+    /* border: 1px solid blue; */
+    height: 500px;
+    width: 30%;
+    margin: auto;
+    text-align: left;
+    padding: 50px;
+}
+.signup-resister{
+    text-align: left;
+    /* margin: 40px; */
+    display: flex;
+    font-size: 20px;
+}
+.signup-resister > p{
+    margin-top: -1px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 2px;
+}
+.signup-cont > input{
+    width: 80%;
+    padding: 8px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#signup-pass-ins{
+    font-size: 12px;
+    width: 72%;
+    color: rgb(63, 62, 62);
+}
+#signup-btn{
+    background-color: #FF7043;
+    color: #fff;
+    width: 80%;
+    border: none;
+    padding: 13px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#move-signin{
+    margin-left: 32%;
+    font-weight: 600;
+    font-size: 20px;
+}
+#move-signp{
+    margin-left: 25%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.login-error{
+    color: red;
+    margin-left: 75px;
+    font-weight: 600 ;
+}

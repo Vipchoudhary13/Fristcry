@@ -1,0 +1,132 @@
+.fashion-big-cont{
+    width: 97%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 18% 80%;
+}
+.fashion-left-cont{
+    border: 1px solid lightgray;
+}
+.fashion-left-flex{
+    display: flex;
+    background-color: lightgrey;
+    padding: 0px 28px;
+    justify-content: space-between;
+    margin-top: 7px;
+    height: 32px;
+    font-size: 14px;
+    width: 65%;
+    border-radius: 3px;
+}
+.fashion-left-flex > p{
+    margin-top: 6px;
+}
+.dropdown-flex{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 32px;
+    margin-top: 5px;
+    padding-right: 30px;
+}
+.dropdown-flex>h4{
+    color: rgb(92, 90, 90);
+}
+.left-option{
+    margin-top: 7px;
+}
+.dropdown-arrow{
+    margin-top: 10px;
+    margin-left: -5px;
+}
+.st > li, .st1>li{
+    list-style: none;
+    color: gray;
+}
+.st{
+    margin: 10px;
+    height: 130px;
+    /* width: 200px; */
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 1px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: lightgray;
+  }
+
+.fashion-cont2{
+    /* border: 1px solid blue; */
+    cursor: pointer;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+.fashion-cont3 > p, .fashion-grid>p{
+    text-align: left;
+    padding-left: 15px;
+}
+#fashion-logo{
+    width: 100%;
+}
+.fashion-cont3{
+    border: 1px solid rgb(233, 232, 232);
+    background-color: whitesmoke;
+}
+.fashion-grid{
+    display: flex;
+    margin-top: -23px;
+}
+.fashion-grid > p{
+    font-weight: 600;
+}
+.line-cut{
+    text-decoration: line-through;
+}
+.fashion-product-logo{
+    margin-left: 18px;
+}
+.fashion-offer{
+    color: #FF7043;
+}
+.fashion-top-ptag{
+    margin-left: 20px;
+}
+.fashion-pin-code{
+    padding: 5px;
+    width: 83%;
+}
+.fashion-left-cont>h1{
+    color: rgb(92, 90, 90);
+}
+.fashion-next-back-btn-cont{
+    width: 110%;
+    margin-left: 97%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.fashion-next-btn{
+    /* cursor: pointer; */
+    padding: 10px;
+    width: 48%;
+    color: #fff;
+    background-color: #FF7043;
+    border: none;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.fashion-back-btn{
+    margin-left: 10px;
+}
